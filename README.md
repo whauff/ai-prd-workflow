@@ -1,6 +1,6 @@
 # ai-prd-workflow
 
-面向 Codex 的组合式产品需求工作流 skill。目标是把零散需求逐步收口为可评审、可共享的 PRD 交付物，并在需要时追加原型、原型样式统一、规则稿和流程图。
+组合式产品需求工作流 skill。把零散需求收口为可评审、可共享的 PRD 交付包；按需追加 Brief、原型、规则稿和流程图。
 
 ## 仓库结构
 
@@ -17,6 +17,7 @@
         ├── SKILL.md
         ├── agents/openai.yaml
         ├── clarify-requirement/
+        ├── review-brief/
         ├── write-prd/
         ├── build-prototype/
         ├── style-prototype/
@@ -27,9 +28,7 @@
 
 ## 安装
 
-推荐通过 Codex 自带的 `skill-installer` 从 GitHub 安装这个 skill。
-
-如果仓库 owner 是 `whauff`，仓库名是 `ai-prd-workflow`，安装命令示例为：
+使用 Codex 自带的 `skill-installer` 安装：
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
@@ -37,15 +36,14 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
   --path skills/ai-prd-workflow
 ```
 
-安装完成后，重启 Codex 以识别新 skill。
+安装后重启 Codex。
 
 ## 适用场景
 
-- 需求还比较散，需要先澄清
-- 已有材料较多，需要收口成 PRD
-- 页面和交互容易引起分歧，需要原型
-- 团队希望统一原型样式交付标准
-- 规则口径或流程分支需要单独沉淀
+- 需求零散，需要澄清
+- 正式交付前需先定口径
+- 需要 PRD、原型、规则稿或流程图
+- 复杂业务规则需独立沉淀
 
 ## 文档
 
