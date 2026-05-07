@@ -16,13 +16,13 @@
 ## 卡点
 
 - 用户直接说“写 PRD”，但范围、顺序、字段、权限或规则边界没定：先走 `review-brief`。
-- 地址治理、状态检查、识别校验类需求：不因有规则就默认拆规则稿，只有规则复杂且需独立评审、复用或持续维护时才追加 `write-rules`。
+- 地址治理、状态检查、识别校验类需求：不因有规则就默认拆规则稿，只有规则复杂且需独立评审、复用或持续维护时才进入 `write-rules`。
 - 已有独立规则稿：PRD 只保留规则摘要和链接，不再展开规则矩阵、计算明细、优先级和例外。
 
 ## 顺序
 
 ```text
-ai-prd-workflow → clarify-requirement → review-brief → write-prd → 按需追加原型 / 规则稿 / 流程图
+ai-prd-workflow → clarify-requirement → review-brief → 确定正式交付物组合 → 按需进入 PRD / 原型 / 规则稿 / 流程图
 ```
 
 这是判断顺序，不是固定流水线。

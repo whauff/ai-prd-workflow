@@ -28,15 +28,15 @@
 1. `ai-prd-workflow`
 2. `clarify-requirement`
 3. `review-brief`
-4. `write-prd`
-5. 按需追加 `build-prototype`、`style-prototype`、`write-rules`、`make-flowchart`
+4. 确定正式交付物组合
+5. 按需进入 `write-prd`、`build-prototype`、`style-prototype`、`write-rules`、`make-flowchart`
 
 这是判断顺序，不是固定流水线。
 
 ## 卡点规则
 
 - 用户直接要求写 PRD，但范围、判断顺序、字段层级、多端权限或规则边界还没定：先进入 `review-brief`，不直接展开长 PRD。
-- 地址治理、状态检查、识别校验类需求，不因为“有规则”就默认拆规则稿；只有规则复杂、需独立评审、复用或持续维护时才追加 `write-rules`。
+- 地址治理、状态检查、识别校验类需求，不因为“有规则”就默认拆规则稿；只有规则复杂、需独立评审、复用或持续维护时才进入 `write-rules`。
 - 如果已决定拆独立规则稿，PRD 正文只保留规则摘要和链接，不再承载规则矩阵、计算明细、优先级和例外。
 
 ## 原则
@@ -73,7 +73,7 @@ build-prototype → style-prototype → 必要时回写 write-prd
 ### 复杂规则
 
 ```text
-review-brief → write-prd → write-rules → 必要时 make-flowchart
+review-brief → write-prd + write-rules → 必要时 make-flowchart
 ```
 
 互联网医院分佣这类需求，PRD 负责背景、目标、场景和方案摘要；规则稿负责分佣矩阵、适用条件、优先级和例外。

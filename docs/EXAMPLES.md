@@ -14,7 +14,7 @@
 ai-prd-workflow → clarify-requirement → review-brief → write-prd
 ```
 
-原因：目标和边界未定，应先用 Brief 收口范围、判断顺序、状态层级和权限。只有规则出现多条件组合、优先级或例外，且需要独立评审或复用时，才追加 `write-rules`。
+原因：目标和边界未定，应先用 Brief 收口范围、判断顺序、状态层级和权限。只有规则出现多条件组合、优先级或例外，且需要独立评审或复用时，才进入 `write-rules`。
 
 验证重点：
 
@@ -65,7 +65,7 @@ build-prototype → style-prototype → 必要时回写 write-prd
 入口：
 
 ```text
-review-brief → write-prd → write-rules
+review-brief → write-prd + write-rules
 ```
 
 原因：多主体、多场景、多条件组合，且分佣口径需要独立评审和持续维护。

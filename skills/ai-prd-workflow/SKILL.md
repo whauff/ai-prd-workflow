@@ -45,6 +45,7 @@ description: 当用户希望把一个需求收口为可评审、可共享的正�
 - 用户直接要求写 PRD，但上述口径仍未定：仍先 Brief，不直接展开长 PRD。
 - Brief 有待拍板问题：停，等用户确认。
 - Brief 无待拍板问题：可继续交付，并说明“基于当前 Brief 默认展开”。
+- 进入正式交付前，先确定交付物组合；若需要独立规则稿，PRD 与规则稿按同一 Brief 并列展开，PRD 只写规则摘要和链接。
 - 下游出现新判断：回到 Brief 更新口径。
 
 ## 子 skill 调度
@@ -57,11 +58,11 @@ description: 当用户希望把一个需求收口为可评审、可共享的正�
 | 需要先定口径 | [review-brief/SKILL.md](review-brief/SKILL.md) |
 | 需要完整 PRD | [write-prd/SKILL.md](write-prd/SKILL.md) |
 | 页面、表单、状态或交互影响评审 | [build-prototype/SKILL.md](build-prototype/SKILL.md) |
-| 原型结构稳定但样式需统一 | [style-prototype/SKILL.md](style-prototype/SKILL.md) |
+| 原型结构稳定但视觉、适配、状态或可用性需统一 | [style-prototype/SKILL.md](style-prototype/SKILL.md) |
 | 复杂业务规则需独立评审、复用或维护 | [write-rules/SKILL.md](write-rules/SKILL.md) |
 | 关键分支、处理链路或异常路径文字说不清 | [make-flowchart/SKILL.md](make-flowchart/SKILL.md) |
 
-规则稿不是默认产物。只有复杂业务规则口径需要独立评审、复用或持续维护时才追加。
+规则稿不是默认产物。只有复杂业务规则口径需要独立评审、复用或持续维护时，才作为正式交付物之一拆出。
 
 ## 全局底线
 
@@ -85,6 +86,7 @@ description: 当用户希望把一个需求收口为可评审、可共享的正�
 - [shared/references/deliverable-triggers.md](shared/references/deliverable-triggers.md)
 - [shared/references/prototype-guidelines.md](shared/references/prototype-guidelines.md)
 - [shared/references/prototype-style-standard.md](shared/references/prototype-style-standard.md)
+- [shared/references/prototype-design-quality.md](shared/references/prototype-design-quality.md)
 - [shared/references/reduction-checklist.md](shared/references/reduction-checklist.md)
 - [shared/references/sample-analysis-guide.md](shared/references/sample-analysis-guide.md)
 - [shared/references/flowchart-guidelines.md](shared/references/flowchart-guidelines.md)

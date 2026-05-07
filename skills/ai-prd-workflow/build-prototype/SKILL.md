@@ -24,6 +24,7 @@ description: 当页面、表单、状态或交互行为本身是主要讨论对�
 开始产出前按需读取：
 
 - [../shared/references/prototype-guidelines.md](../shared/references/prototype-guidelines.md)
+- [../shared/references/prototype-design-quality.md](../shared/references/prototype-design-quality.md)
 - [../shared/references/reduction-checklist.md](../shared/references/reduction-checklist.md)
 
 若已有 PRD，基于 PRD 产出。
@@ -37,6 +38,7 @@ description: 当页面、表单、状态或交互行为本身是主要讨论对�
 5. PRD 已讲清的内容，不在原型里重复堆说明。
 6. 假数据保持真实业务感，不伪装成最终文案。
 7. 演示控件与真实页面结构分层，不混入正式页面功能。
+8. 原型代码应自带基础可用性：响应式布局、可读文字、完整交互状态和清楚的错误/空/加载态。
 
 ## 输出
 
@@ -53,3 +55,4 @@ description: 当页面、表单、状态或交互行为本身是主要讨论对�
 - 不扩展到设计系统建设。
 - 不为了美观而牺牲评审效率。
 - 不把原型当成正式开发代码承诺。
+- 不使用强风格化、炫技动画或作品集式视觉表达。
