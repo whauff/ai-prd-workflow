@@ -1,6 +1,6 @@
 # ai-prd-workflow examples
 
-## 模糊需求
+## 地址治理 / 状态检查
 
 输入：
 
@@ -11,10 +11,16 @@
 入口：
 
 ```text
-ai-prd-workflow → clarify-requirement → review-brief → write-prd → write-rules
+ai-prd-workflow → clarify-requirement → review-brief → write-prd
 ```
 
-原因：目标和边界未定，且存在规则口径。
+原因：目标和边界未定，应先用 Brief 收口范围、判断顺序、状态层级和权限。只有规则出现多条件组合、优先级或例外，且需要独立评审或复用时，才追加 `write-rules`。
+
+验证重点：
+
+- 是否先进入 `review-brief`
+- Brief 是否先给结论、只保留短版拍板信息，不展开长 PRD
+- 是否避免因为“治理/校验”字样就默认拆规则稿
 
 ## 明确需求
 
@@ -62,7 +68,13 @@ build-prototype → style-prototype → 必要时回写 write-prd
 review-brief → write-prd → write-rules
 ```
 
-原因：多主体、多场景、多条件组合，需要独立评审和持续维护。
+原因：多主体、多场景、多条件组合，且分佣口径需要独立评审和持续维护。
+
+验证重点：
+
+- 是否先用 Brief 收口分佣范围、主体差异、适用条件和高争议边界
+- PRD 是否只写业务背景、目标、场景、方案摘要和验收
+- 规则稿是否承载分佣矩阵、适用条件、优先级和例外，而不是重复 PRD
 
 ## 复杂链路
 

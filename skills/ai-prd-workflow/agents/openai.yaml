@@ -1,4 +1,4 @@
 version: 1
 display_name: AI PRD Workflow
-short_description: 收口需求并产出可评审 PRD 交付物
-default_prompt: Use $ai-prd-workflow to turn this product request into a reviewable PRD package.
+short_description: 收口需求并组织可评审正式交付
+default_prompt: Use $ai-prd-workflow to turn this product request into a reviewable delivery package with the right deliverables.

@@ -1,6 +1,6 @@
 # ai-prd-workflow
 
-组合式产品需求工作流 skill。把零散需求收口为可评审、可共享的 PRD 交付包；按需追加 Brief、原型、规则稿和流程图。
+组合式产品需求收口工作流 skill。把零散需求收口为可评审、可共享的正式交付；按需追加 Brief、原型、规则稿和流程图。
 
 ## 仓库结构
 
@@ -41,8 +41,8 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 ## 适用场景
 
 - 需求零散，需要澄清
-- 正式交付前需先定口径
-- 需要 PRD、原型、规则稿或流程图
+- 正式交付前需先收口关键口径
+- 需要按需组织 PRD、原型、规则稿或流程图
 - 复杂业务规则需独立沉淀
 
 ## 文档

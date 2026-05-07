@@ -33,6 +33,12 @@
 
 这是判断顺序，不是固定流水线。
 
+## 卡点规则
+
+- 用户直接要求写 PRD，但范围、判断顺序、字段层级、多端权限或规则边界还没定：先进入 `review-brief`，不直接展开长 PRD。
+- 地址治理、状态检查、识别校验类需求，不因为“有规则”就默认拆规则稿；只有规则复杂、需独立评审、复用或持续维护时才追加 `write-rules`。
+- 如果已决定拆独立规则稿，PRD 正文只保留规则摘要和链接，不再承载规则矩阵、计算明细、优先级和例外。
+
 ## 原则
 
 - 高效：先抓关键口径，减少无效澄清和无效产物。
@@ -56,6 +62,8 @@
 ai-prd-workflow → clarify-requirement → review-brief → write-prd
 ```
 
+地址治理、状态检查类通常先在 Brief 收口范围、判断顺序、状态层级和权限，再决定是否真的需要规则稿。
+
 ### 交互争议
 
 ```text
@@ -67,3 +75,5 @@ build-prototype → style-prototype → 必要时回写 write-prd
 ```text
 review-brief → write-prd → write-rules → 必要时 make-flowchart
 ```
+
+互联网医院分佣这类需求，PRD 负责背景、目标、场景和方案摘要；规则稿负责分佣矩阵、适用条件、优先级和例外。
