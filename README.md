@@ -50,4 +50,4 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 - [使用说明](docs/USAGE.md)
 - [调用速查表](docs/CHEATSHEET.md)
 - [调用示例](docs/EXAMPLES.md)
-- [原型样式说明](docs/STYLE_GUIDE.md)
+- [原型交付质量说明](docs/STYLE_GUIDE.md)

@@ -47,6 +47,7 @@ description: 当用户希望把一个需求收口为可评审、可共享的正�
 - Brief 无待拍板问题：可继续交付，并说明“基于当前 Brief 默认展开”。
 - 进入正式交付前，先确定交付物组合；若需要独立规则稿，PRD 与规则稿按同一 Brief 并列展开，PRD 只写规则摘要和链接。
 - 下游出现新判断：回到 Brief 更新口径。
+- 正式交付完成后，按 [shared/references/reduction-checklist.md](shared/references/reduction-checklist.md) 做减法检查、同步检查和旧产物治理。
 
 ## 子 skill 调度
 
