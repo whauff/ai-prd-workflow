@@ -1,4 +1,4 @@
-# ai-prd-workflow style guide
+# ai-prd-workflow 原型交付质量说明
 
 这份说明用于帮助团队理解：为什么原型交付质量统一要单独做，而不是混在原型结构设计里。
 
