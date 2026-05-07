@@ -1,6 +1,6 @@
-# ai-prd-workflow
+# ai-prd-workflow 使用说明
 
-组合式需求收口 skill：主 skill 编排，子 skill 执行，shared 复用模板和检查清单。
+组合式需求收口技能：主技能负责编排，子技能负责执行，共享目录复用模板和检查清单。
 
 ## 目标
 

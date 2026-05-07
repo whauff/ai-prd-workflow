@@ -1,6 +1,6 @@
 # ai-prd-workflow
 
-组合式产品需求收口工作流 skill。把零散需求收口为可评审、可共享的正式交付；按需组织 Brief、PRD、原型、规则稿和流程图。
+组合式产品需求收口工作流技能。把零散需求收口为可评审、可共享的正式交付；按需组织 Brief、PRD、原型、规则稿和流程图。
 
 ## 仓库结构
 
@@ -28,7 +28,7 @@
 
 ## 安装
 
-使用 Codex 自带的 `skill-installer` 安装：
+使用 Codex 自带的技能安装器安装：
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \

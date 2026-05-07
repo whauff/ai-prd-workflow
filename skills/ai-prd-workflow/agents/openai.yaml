@@ -1,4 +1,4 @@
 version: 1
-display_name: AI PRD Workflow
+display_name: AI PRD 工作流
 short_description: 收口需求并组织可评审正式交付
 default_prompt: 使用 $ai-prd-workflow 将这个产品需求收口为可评审的交付包，并按需组织正确的交付物。

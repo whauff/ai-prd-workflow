@@ -1,11 +1,11 @@
 ---
 name: ai-prd-workflow
-description: 当用户希望把一个需求收口为可评审、可共享的正式交付时使用。该 skill 负责最高编排：确立原则、识别需求类型、决定阶段顺序、调度子 skill、控制边界和最终收口。
+description: 当用户希望把一个需求收口为可评审、可共享的正式交付时使用。该技能负责最高编排：确立原则、识别需求类型、决定阶段顺序、调度子技能、控制边界和最终收口。
 ---
 
 # ai-prd-workflow
 
-最高编排层。负责原则、分类、阶段、调度和收口，不替代子 skill 生成具体产物。
+最高编排层。负责原则、分类、阶段、调度和收口，不替代子技能生成具体产物。
 
 ## 基础原则
 
@@ -49,11 +49,11 @@ description: 当用户希望把一个需求收口为可评审、可共享的正�
 - 下游出现新判断：回到 Brief 更新口径。
 - 正式交付完成后，按 [shared/references/reduction-checklist.md](shared/references/reduction-checklist.md) 做减法检查、同步检查和旧产物治理。
 
-## 子 skill 调度
+## 子技能调度
 
 按需读取，不全量展开：
 
-| 阶段 / 触发 | 子 skill |
+| 阶段 / 触发 | 子技能 |
 |---|---|
 | 需求缺关键上下文 | [clarify-requirement/SKILL.md](clarify-requirement/SKILL.md) |
 | 需要先定口径 | [review-brief/SKILL.md](review-brief/SKILL.md) |
