@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Prototype"
+  short_description: "收口已有原型，使其进入可评审状态"
+  default_prompt: "Use $review-prototype to refine an existing prototype into a review-ready version without changing business logic."

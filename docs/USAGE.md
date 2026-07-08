@@ -19,7 +19,7 @@
 | 需要先定范围、顺序、字段或权限 | `review-brief` |
 | 需要完整 PRD | `write-prd` |
 | 页面或交互影响评审 | `build-prototype` |
-| 原型结构稳定但视觉、适配、状态或可用性需统一 | `style-prototype` |
+| 原型结构稳定后，需要评审前收口、减法、状态和可用性统一 | `review-prototype` |
 | 复杂业务规则需独立评审、复用或维护 | `write-rules` |
 | 分支、链路或异常路径文字说不清 | `make-flowchart` |
 
@@ -29,7 +29,7 @@
 2. `clarify-requirement`
 3. `review-brief`
 4. 确定正式交付物组合
-5. 按需进入 `write-prd`、`build-prototype`、`style-prototype`、`write-rules`、`make-flowchart`
+5. 按需进入 `write-prd`、`build-prototype`、`review-prototype`、`write-rules`、`make-flowchart`
 
 这是判断顺序，不是固定流水线。
 
@@ -68,7 +68,7 @@ ai-prd-workflow → clarify-requirement → review-brief → write-prd
 ### 页面状态 / 表单交互
 
 ```text
-build-prototype → style-prototype → 必要时回写 write-prd
+build-prototype → review-prototype → 必要时回写 write-prd
 ```
 
 页面只是承载 PRD 内容、没有状态或交互分歧时，不进入原型。

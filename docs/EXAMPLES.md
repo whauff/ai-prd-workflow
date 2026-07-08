@@ -65,10 +65,10 @@ PRD 已有，门店配置页里保存前校验、错误提示、禁用按钮、�
 入口：
 
 ```text
-build-prototype → style-prototype → 必要时回写 write-prd
+build-prototype → review-prototype → 必要时回写 write-prd
 ```
 
-原因：争议集中在页面状态和交互行为，原型用于暴露文字 PRD 难以发现的遗漏；样式统一只服务评审质量，不改变主流程优先级。
+原因：争议集中在页面状态和交互行为，原型用于暴露文字 PRD 难以发现的遗漏；评审前收口只服务评审质量，不改变主流程优先级。
 
 验证重点：
 

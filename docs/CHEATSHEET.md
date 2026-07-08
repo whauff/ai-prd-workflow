@@ -9,7 +9,7 @@
 | 需先定范围、顺序、字段或权限 | `review-brief` |
 | 需完整 PRD | `write-prd` |
 | 页面或交互影响评审 | `build-prototype` |
-| 原型结构稳定但视觉、适配、状态或可用性需统一 | `style-prototype` |
+| 原型结构稳定后，需要评审前收口、减法、状态和可用性统一 | `review-prototype` |
 | 复杂业务规则需独立评审、复用或维护 | `write-rules` |
 | 分支、链路或异常路径文字说不清 | `make-flowchart` |
 

@@ -10,6 +10,7 @@
 ├── docs/
 │   ├── CHEATSHEET.md
 │   ├── EXAMPLES.md
+│   ├── GOVERNANCE_BACKLOG.md
 │   ├── STYLE_GUIDE.md
 │   └── USAGE.md
 └── skills/
@@ -20,7 +21,7 @@
         ├── review-brief/
         ├── write-prd/
         ├── build-prototype/
-        ├── style-prototype/
+        ├── review-prototype/
         ├── write-rules/
         ├── make-flowchart/
         └── shared/
@@ -51,3 +52,4 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 - [调用速查表](docs/CHEATSHEET.md)
 - [调用示例](docs/EXAMPLES.md)
 - [原型交付质量说明](docs/STYLE_GUIDE.md)
+- [治理待办](docs/GOVERNANCE_BACKLOG.md)
