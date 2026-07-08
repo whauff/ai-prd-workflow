@@ -13,6 +13,12 @@ description: 当已有产品原型需要进入评审前收口时使用。负责�
 
 - [references/prototype-review-checklist.md](references/prototype-review-checklist.md)
 
+按页面类型继续读取：
+
+- 移动端、小程序、员工端、门店端、医生端或其他移动作业页面：读 [references/mobile-business-page.md](references/mobile-business-page.md)
+- 后台、管理端、配置页、列表页、审核页或运营处理页：读 [references/admin-structure-page.md](references/admin-structure-page.md)
+- 总目录页、项目目录页、评审导航页或交付入口页：读 [references/delivery-index-page.md](references/delivery-index-page.md)
+
 如果属于 `ai-prd-workflow` 项目，同时尊重 Brief / PRD / 规则稿边界。若页面职责、字段层级、状态口径或业务规则仍不清楚，先回到 `review-brief` 或对应交付物，不直接用视觉调整替用户拍板。
 
 ## 适用场景
@@ -20,6 +26,7 @@ description: 当已有产品原型需要进入评审前收口时使用。负责�
 - 原型已有页面结构，但视觉层级、按钮、状态、间距或文案显得散。
 - 用户在评审中指出页面太重、太乱、太丑、说明太多、入口不明显、同类页面不一致。
 - 需要把原型从“能看”收成“可评审、可追溯、可交付”。
+- 需要将移动端、后台或交付目录页按团队已沉淀的原型标准做复用检查。
 - 原型改动后需要同步项目目录页的更新记录。
 
 不适用：
