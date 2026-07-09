@@ -15,6 +15,7 @@
 | 情况 | 使用 |
 |---|---|
 | 不确定从哪开始 | `ai-prd-workflow` |
+| 想法或方案需要先被拷问、挑战或压力测试 | `grill-me` |
 | 缺背景、目标、用户、场景或成功标准 | `clarify-requirement` |
 | 需要先定范围、顺序、字段或权限 | `review-brief` |
 | 需要完整 PRD | `write-prd` |
@@ -26,15 +27,17 @@
 ## 推荐顺序
 
 1. `ai-prd-workflow`
-2. `clarify-requirement`
-3. `review-brief`
-4. 确定正式交付物组合
-5. 按需进入 `write-prd`、`build-prototype`、`review-prototype`、`write-rules`、`make-flowchart`
+2. 必要时先用 `grill-me` 压力测试想法或方案
+3. `clarify-requirement`
+4. `review-brief`
+5. 确定正式交付物组合
+6. 按需进入 `write-prd`、`build-prototype`、`review-prototype`、`write-rules`、`make-flowchart`
 
 这是判断顺序，不是固定流水线。
 
 ## 卡点规则
 
+- 用户要求“拷问”“挑战”“找漏洞”“压力测试”，或需求仍是早期想法但用户倾向推进：先进入 `grill-me`，不要急着包装成 PRD。
 - 用户直接要求写 PRD，但范围、判断顺序、字段层级、多端权限或规则边界还没定：先进入 `review-brief`，不直接展开长 PRD。
 - 地址治理、状态检查、识别校验类需求，不因为“有规则”就默认拆规则稿；只有规则复杂、需独立评审、复用或持续维护时才进入 `write-rules`。
 - 如果已决定拆独立规则稿，PRD 正文只保留规则摘要和链接，不再承载规则矩阵、计算明细、优先级和例外。
@@ -60,7 +63,7 @@
 ### 模糊需求
 
 ```text
-ai-prd-workflow → clarify-requirement → review-brief → write-prd
+ai-prd-workflow → 必要时 grill-me → clarify-requirement → review-brief → write-prd
 ```
 
 地址治理、状态检查类通常先在 Brief 收口范围、判断顺序、状态层级和权限，再决定是否真的需要规则稿。

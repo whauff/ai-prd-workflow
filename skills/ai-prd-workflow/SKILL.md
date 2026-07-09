@@ -33,13 +33,15 @@ description: 当用户希望把一个需求收口为可评审、可共享的正�
 
 默认顺序：
 
-1. 澄清
-2. 评审 Brief
-3. 正式交付
-4. 同步检查与收口
+1. 必要时先拷问
+2. 澄清
+3. 评审 Brief
+4. 正式交付
+5. 同步检查与收口
 
 阶段规则：
 
+- 用户要求拷问、挑战、压力测试，或需求仍是早期想法但用户倾向推进时：先用 Grill Me。
 - 关键事实不足：先澄清。
 - 需要确认范围、判断顺序、字段层级、多端权限或争议边界：先 Brief。
 - 用户直接要求写 PRD，但上述口径仍未定：仍先 Brief，不直接展开长 PRD。
@@ -56,6 +58,7 @@ description: 当用户希望把一个需求收口为可评审、可共享的正�
 
 | 阶段 / 触发 | 子技能 |
 |---|---|
+| 需要拷问、挑战或压力测试想法 / 方案 | [grill-me/SKILL.md](grill-me/SKILL.md) |
 | 需求缺关键上下文 | [clarify-requirement/SKILL.md](clarify-requirement/SKILL.md) |
 | 需要先定口径 | [review-brief/SKILL.md](review-brief/SKILL.md) |
 | 需要完整 PRD | [write-prd/SKILL.md](write-prd/SKILL.md) |

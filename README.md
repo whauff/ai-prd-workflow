@@ -18,6 +18,7 @@
     └── ai-prd-workflow/
         ├── SKILL.md
         ├── agents/openai.yaml
+        ├── grill-me/
         ├── clarify-requirement/
         ├── review-brief/
         ├── write-prd/
@@ -43,6 +44,7 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 ## 适用场景
 
 - 需求零散，需要澄清
+- 想法或方案需要先被拷问、挑战或压力测试
 - 正式交付前需先收口关键口径
 - 需要按需组织 PRD、原型、规则稿或流程图
 - 复杂业务规则需独立沉淀

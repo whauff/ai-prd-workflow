@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grill Me"
+  short_description: "高压但不刻薄地压力测试想法和方案"
+  default_prompt: "Use $grill-me to challenge this product idea and identify its weakest assumptions before we turn it into a PRD."
