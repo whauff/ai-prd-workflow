@@ -49,6 +49,12 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 - 需要按需组织 PRD、原型、规则稿或流程图
 - 复杂业务规则需独立沉淀
 
+## 前置入口
+
+- `grill-me`：挑战方向，判断值不值得继续。
+- `clarify-requirement`：补齐事实，明确背景、目标、用户、场景和成功标准。
+- `review-brief`：拍板口径，确认范围、顺序、字段、权限和边界。
+
 ## 文档
 
 - [使用说明](docs/USAGE.md)

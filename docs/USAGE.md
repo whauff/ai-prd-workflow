@@ -27,13 +27,19 @@
 ## 推荐顺序
 
 1. `ai-prd-workflow`
-2. 必要时先用 `grill-me` 压力测试想法或方案
-3. `clarify-requirement`
-4. `review-brief`
-5. 确定正式交付物组合
-6. 按需进入 `write-prd`、`build-prototype`、`review-prototype`、`write-rules`、`make-flowchart`
+2. 先判断前置入口：挑战方向用 `grill-me`，补齐事实用 `clarify-requirement`，拍板口径用 `review-brief`
+3. 确定正式交付物组合
+4. 按需进入 `write-prd`、`build-prototype`、`review-prototype`、`write-rules`、`make-flowchart`
 
-这是判断顺序，不是固定流水线。
+这是分流顺序，不是固定流水线；三个前置入口通常只选当前最需要的一个。
+
+## 前置入口分流
+
+| 用户真正需要 | 使用 | 不使用 |
+|---|---|---|
+| 判断想法或方案值不值得继续，找隐藏假设、失败信号、机会成本 | `grill-me` | 不急着澄清成完整需求，也不写 Brief |
+| 补齐背景、目标、用户、场景、现状、成功标准 | `clarify-requirement` | 不做高压质询，不定范围字段权限 |
+| 确认本期范围、判断顺序、字段层级、多端权限或争议边界 | `review-brief` | 不重新补基础背景，不包装成完整 PRD |
 
 ## 卡点规则
 
@@ -63,10 +69,18 @@
 ### 模糊需求
 
 ```text
-ai-prd-workflow → 必要时 grill-me → clarify-requirement → review-brief → write-prd
+ai-prd-workflow → clarify-requirement → review-brief → write-prd
 ```
 
 地址治理、状态检查类通常先在 Brief 收口范围、判断顺序、状态层级和权限，再决定是否真的需要规则稿。
+
+### 早期想法
+
+```text
+ai-prd-workflow → grill-me → 继续 / 降级 / 暂停 / 先验证
+```
+
+方向成立但事实缺失时再进入 `clarify-requirement`；方向成立且事实具备但口径未定时再进入 `review-brief`。
 
 ### 页面状态 / 表单交互
 

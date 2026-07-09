@@ -25,12 +25,19 @@ description: 当需求仍然模糊、存在关键上下文缺口、或需要先�
 
 ## 工作方式
 
-1. 先阅读 [../shared/references/context-checklist.md](../shared/references/context-checklist.md)。
-2. 只追问影响方案方向的缺口。
-3. 不重复已知信息。
-4. 信息足够时，直接输出摘要。
-5. 样本影响判断口径时，指出缺失样本。
-6. 需确认范围、顺序、字段、权限或边界时，建议进入 Brief。
+1. 前置入口可能冲突时，先按 [../shared/references/entry-routing.md](../shared/references/entry-routing.md) 判断。
+2. 先阅读 [../shared/references/context-checklist.md](../shared/references/context-checklist.md)。
+3. 只追问影响方案方向的缺口。
+4. 不重复已知信息。
+5. 信息足够时，直接输出摘要。
+6. 样本影响判断口径时，指出缺失样本。
+7. 需确认范围、顺序、字段、权限或边界时，建议进入 Brief。
+
+## 与其他前置入口的边界
+
+- 用户要判断“值不值得做”、找隐藏假设或失败信号：转 `grill-me`。
+- 背景、目标、用户、场景、现状或成功标准缺失：留在 `clarify-requirement`。
+- 关键事实基本具备，只差范围、顺序、字段、权限或边界拍板：转 `review-brief`。
 
 ## 输出格式
 
@@ -69,3 +76,5 @@ description: 当需求仍然模糊、存在关键上下文缺口、或需要先�
 - 不输出技术设计。
 - 不拆研发任务。
 - 不追问无关信息。
+- 不替用户判断是否值得做；方向压力测试交给 `grill-me`。
+- 不输出拍板单；口径收口交给 `review-brief`。

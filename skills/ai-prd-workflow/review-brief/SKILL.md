@@ -9,6 +9,8 @@ description: 当需求进入 PRD、规则稿、原型或流程图前，需要先
 
 ## 进入条件
 
+前置入口可能冲突时，先按 [../shared/references/entry-routing.md](../shared/references/entry-routing.md) 判断。
+
 关键事实基本具备，但仍需先确认以下任一口径：
 
 - 本期范围或高争议边界
@@ -18,6 +20,14 @@ description: 当需求进入 PRD、规则稿、原型或流程图前，需要先
 - 复杂业务规则的适用条件、优先级或例外
 
 关键事实不足时，先回到 [../clarify-requirement/SKILL.md](../clarify-requirement/SKILL.md)。
+
+如果方向价值、核心假设或失败信号仍未被挑战，先回到 [../grill-me/SKILL.md](../grill-me/SKILL.md)。
+
+## 与其他前置入口的边界
+
+- 用户要判断“值不值得做”、找隐藏假设或失败信号：转 `grill-me`。
+- 背景、目标、用户、场景、现状或成功标准缺失：转 `clarify-requirement`。
+- 关键事实基本具备，只差范围、顺序、字段、权限或边界拍板：留在 `review-brief`。
 
 ## 工作规则
 
@@ -86,3 +96,5 @@ description: 当需求进入 PRD、规则稿、原型或流程图前，需要先
 - 不生成原型或流程图。
 - 不拆研发任务。
 - 不补未确认系统能力。
+- 不替代方向压力测试。
+- 不替代基础需求澄清。

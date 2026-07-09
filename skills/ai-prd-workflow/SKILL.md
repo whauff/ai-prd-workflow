@@ -41,6 +41,7 @@ description: 当用户希望把一个需求收口为可评审、可共享的正�
 
 阶段规则：
 
+- 前置入口冲突时，按 [shared/references/entry-routing.md](shared/references/entry-routing.md) 判断：先分清用户需要挑战方向、补齐事实，还是拍板口径。
 - 用户要求拷问、挑战、压力测试，或需求仍是早期想法但用户倾向推进时：先用 Grill Me。
 - 关键事实不足：先澄清。
 - 需要确认范围、判断顺序、字段层级、多端权限或争议边界：先 Brief。
@@ -99,6 +100,7 @@ description: 当用户希望把一个需求收口为可评审、可共享的正�
 ### 参考文件
 
 - [shared/references/context-checklist.md](shared/references/context-checklist.md)
+- [shared/references/entry-routing.md](shared/references/entry-routing.md)
 - [shared/references/deliverable-triggers.md](shared/references/deliverable-triggers.md)
 - [shared/references/prototype-guidelines.md](shared/references/prototype-guidelines.md)
 - [shared/references/prototype-style-standard.md](shared/references/prototype-style-standard.md)
